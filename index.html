@@ -3,31 +3,70 @@
   <head>
     <meta charset="utf-8">
     <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="styles/style.css">
   </head>
   <body>
+    <!-- Game Section Start -->
     <section class = "game">
       <h1>Tic Tac Toe</h1>
+      <!-- Game container start -->
       <div class="container">
-        <div class="cell">
-          <img src="images/red.png" alt="">
+        <div class="row">
+          <div class="cell">
+            <img src="images/red.png" class ="hidden red" alt="">
+            <img src="images/yellow.png" class ="hidden yellow" alt="">
+          </div>
+          <div class="cell">
+            <img src="images/red.png" class ="hidden red" alt="">
+            <img src="images/yellow.png" class ="hidden yellow" alt="">
+
+          </div>
+          <div class="cell">
+            <img src="images/red.png" class ="hidden red" alt="">
+            <img src="images/yellow.png" class ="hidden yellow" alt="">
+
+          </div>
         </div>
-        <div class="cell">
-          <img src="images/red.png" alt="">
+
+        <div class="row">
+          <div class="cell">
+            <img src="images/red.png" class ="hidden red" alt="">
+            <img src="images/yellow.png" class ="hidden yellow" alt="">
+          </div>
+          <div class="cell">
+            <img src="images/red.png" class ="hidden red" alt="">
+            <img src="images/yellow.png" class ="hidden yellow" alt="">
+          </div>
+          <div class="cell">
+            <img src="images/red.png" class ="hidden red" alt="">
+            <img src="images/yellow.png" class ="hidden yellow" alt="">
+
+          </div>
         </div>
-        <div class="cell">
-          <img src="images/red.png" alt="">
-        </div>
-        <div class="cell">
-          <img src="images/red.png" alt="">
-        </div>
-        <div class="cell">
-          <img src="images/red.png" alt="">
-        </div>
-        <div class="cell">
-          <img src="images/red.png" alt="">
+        <div class="row">
+          <div class="cell">
+            <img src="images/red.png" class ="hidden red" alt="">
+            <img src="images/yellow.png" class ="hidden yellow" alt="">
+
+          </div>
+          <div class="cell">
+            <img src="images/red.png" class ="hidden red" alt="">
+            <img src="images/yellow.png" class ="hidden yellow" alt="">
+
+          </div>
+          <div class="cell">
+            <img src="images/red.png" class ="hidden red" alt="">
+            <img src="images/yellow.png" class ="hidden yellow" alt="">
+
+          </div>
         </div>
       </div>
+      <!-- Game container end -->
       <h3>player won</h3>
+      <button type="button" class = "reset" id ="reset name="reset">Play Again</button>
     </section>
+    <!-- Game Section End -->
+    <script type="text/javascript" src = "index.js">
+    </script>
   </body>
 </html>
