@@ -7,6 +7,7 @@ body{
   background-color: #6563ff;
 }
 
+/* Text styling */
 h1{
   color: white;
   font-size: 2rem;
@@ -14,6 +15,8 @@ h1{
 h3{
   color: white;
 }
+
+/* game section styling */
 .game{
   display: flex;
   flex-direction: column;
@@ -56,4 +59,7 @@ font-weight:bold;
 padding: 0.5rem 2rem;
 margin-top: 1rem;
 margin-bottom: 2rem;
+}
+.disabled{
+  pointer-events:none;
 }
